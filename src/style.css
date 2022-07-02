@@ -7,3 +7,28 @@
 h1 {
     color: red;
 }
+
+.primary-nav {
+    background-color: aliceblue;
+    padding: 1rem 2rem;
+}
+
+nav a {
+    margin-right: 1rem;
+}
+
+nav a.active {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button {
+    padding: 1rem 2rem;
+    border: none;
+    background-color: lightblue;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
